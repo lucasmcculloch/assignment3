@@ -1,0 +1,52 @@
+nav {
+    text-align: center;
+    border-bottom: 2px solid gray;
+    background-color: grey;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+nav li a.current{
+    color: purple;
+}
+nav li a.noncurrent{
+    color: black;
+}
+footer{
+    text-align: center;
+    border-top: 2px solid gray;
+    background-color: grey;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+body{
+    background-color: grey;
+    font-family:'Times New Roman', Times, serif;
+}
+body div{
+    background-color: lightgrey;
+}
+.container {
+    padding: 20px;
+}
+.custom-card {
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6, h7, h8{
+    font-size: 20px;
+    font-weight: bold;
+}
+.logo{
+    max-width: 100px;
+    margin-left: 20px;
+}
+#audio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

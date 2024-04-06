@@ -1,0 +1,57 @@
+nav {
+    text-align: center;
+    border-bottom: 2px solid gray;
+    background-color:grey;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+nav li a.current{
+    color: purple;
+}
+nav li a.noncurrent{
+    color: black;
+}
+.pic{
+    width: 80%; /* Adjust width according to your layout */
+    margin: auto; /* Center the container horizontally */
+    padding: 20px; /* Adjust padding to create space around the image */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    text-align: center; /* Center the image within the container */
+}                   
+.pic img{
+    max-width: 100%; /* Ensure the image does not exceed the container width */
+    height: auto; /* Maintain aspect ratio */
+}
+.row{
+    justify-content: center;
+}
+div ul{
+    justify-content: center;
+}
+footer{
+    text-align: center;
+    border-bottom: 2px solid gray;
+    background-color:grey;
+}
+body div{
+    background-color: lightgray;
+}
+body{
+    background-color: grey;
+    font-family:'Times New Roman', Times, serif;
+}
+.logo{
+max-width: 100px;
+float: left
+}
+h1, h2{
+    font-size: 20px;
+    font-weight: bold;
+}
